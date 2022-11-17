@@ -14,6 +14,7 @@ export const styles = StyleSheet.create({
         textAlign: "center"
     },
     loginbottom:{
+        
         color: 'black',
         fontSize: 16,
         marginTop: 20,
