@@ -10,11 +10,27 @@ export const styles = StyleSheet.create({
     title: {
         color: 'black',
         fontSize: 20,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        paddingHorizontal: 30,
+        paddingBottom: 20
+    },
+    description: {
+        fontSize: 13,
+        backgroundColor: '#add8e6',
+        color: 'black',
+        paddingHorizontal: 10
     },
     date: {
         fontWeight: 'bold',
-        marginTop: 20
+        marginTop: 20,
+        fontSize: 12,
+        color: 'black',
+        textAlign: 'left'
+    },
+    situacao:{
+        color: 'grey',
+        textAlign: 'right',
+        paddingBottom: 20
     },
     subtitle:{
         color: 'black',
@@ -22,5 +38,14 @@ export const styles = StyleSheet.create({
         marginTop: 20,
         textAlign: "center",
         fontWeight: "bold"
-    }
+    },
+    image:{
+        height: 130,
+        width: 100
+    },
+    label:{    
+        paddingBottom: 10, 
+        borderBottomWidth: 0.3,
+        color: 'grey'
+    },
 })
